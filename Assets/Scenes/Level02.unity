@@ -4243,12 +4243,13 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: -225251547402587589, guid: 56998938ac5f10b4c96cece028fa62ef, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents:
     - targetCorrespondingSourceObject: {fileID: 1225414210314488525, guid: 56998938ac5f10b4c96cece028fa62ef, type: 3}
-      insertIndex: 3
+      insertIndex: -1
       addedObject: {fileID: 1374917173}
   m_SourcePrefab: {fileID: 100100000, guid: 56998938ac5f10b4c96cece028fa62ef, type: 3}
 --- !u!4 &1374917171 stripped
@@ -4273,7 +4274,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: aa8c8d37545cdc64394163665de6eefe, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  healthSprites:
+  - {fileID: 21300000, guid: 3ad3b479b06b9d244bd259f549de8c9e, type: 3}
+  - {fileID: 21300000, guid: e6f62497989454b49ac5615453b6823e, type: 3}
+  - {fileID: 21300000, guid: 9c04b1a7fbbd6664fa23309a6b776aaa, type: 3}
   metalSprite: {fileID: 21300000, guid: f2de28124e06dc2488ac477b1d589729, type: 3}
+  pointsPerBrick: 10
+  powerUpPrefabs:
+  - {fileID: 4646887501996757220, guid: f6a675b207e42b142aa59455a2f4d938, type: 3}
+  - {fileID: 5300931278670347517, guid: ddd88b52f93d8fa40baf77e7f8ac7649, type: 3}
+  - {fileID: 2306422169287477990, guid: b35a2e88cd774bc4a9a071960cdb7b14, type: 3}
+  powerUpChance: 0.2
 --- !u!1 &1375761898
 GameObject:
   m_ObjectHideFlags: 0
@@ -6222,12 +6233,13 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: -225251547402587589, guid: 56998938ac5f10b4c96cece028fa62ef, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents:
     - targetCorrespondingSourceObject: {fileID: 1225414210314488525, guid: 56998938ac5f10b4c96cece028fa62ef, type: 3}
-      insertIndex: 3
+      insertIndex: -1
       addedObject: {fileID: 1957640251}
   m_SourcePrefab: {fileID: 100100000, guid: 56998938ac5f10b4c96cece028fa62ef, type: 3}
 --- !u!4 &1957640249 stripped
@@ -6252,7 +6264,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: aa8c8d37545cdc64394163665de6eefe, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  healthSprites:
+  - {fileID: 21300000, guid: 3ad3b479b06b9d244bd259f549de8c9e, type: 3}
+  - {fileID: 21300000, guid: e6f62497989454b49ac5615453b6823e, type: 3}
+  - {fileID: 21300000, guid: 9c04b1a7fbbd6664fa23309a6b776aaa, type: 3}
   metalSprite: {fileID: 21300000, guid: f2de28124e06dc2488ac477b1d589729, type: 3}
+  pointsPerBrick: 10
+  powerUpPrefabs:
+  - {fileID: 4646887501996757220, guid: f6a675b207e42b142aa59455a2f4d938, type: 3}
+  - {fileID: 5300931278670347517, guid: ddd88b52f93d8fa40baf77e7f8ac7649, type: 3}
+  - {fileID: 2306422169287477990, guid: b35a2e88cd774bc4a9a071960cdb7b14, type: 3}
+  powerUpChance: 0.2
 --- !u!1001 &1962394686
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -6460,12 +6482,13 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: -225251547402587589, guid: 56998938ac5f10b4c96cece028fa62ef, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents:
     - targetCorrespondingSourceObject: {fileID: 1225414210314488525, guid: 56998938ac5f10b4c96cece028fa62ef, type: 3}
-      insertIndex: 3
+      insertIndex: -1
       addedObject: {fileID: 2012149637}
   m_SourcePrefab: {fileID: 100100000, guid: 56998938ac5f10b4c96cece028fa62ef, type: 3}
 --- !u!4 &2012149635 stripped
@@ -6490,7 +6513,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: aa8c8d37545cdc64394163665de6eefe, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  healthSprites:
+  - {fileID: 21300000, guid: 3ad3b479b06b9d244bd259f549de8c9e, type: 3}
+  - {fileID: 21300000, guid: e6f62497989454b49ac5615453b6823e, type: 3}
+  - {fileID: 21300000, guid: 9c04b1a7fbbd6664fa23309a6b776aaa, type: 3}
   metalSprite: {fileID: 21300000, guid: f2de28124e06dc2488ac477b1d589729, type: 3}
+  pointsPerBrick: 10
+  powerUpPrefabs:
+  - {fileID: 4646887501996757220, guid: f6a675b207e42b142aa59455a2f4d938, type: 3}
+  - {fileID: 5300931278670347517, guid: ddd88b52f93d8fa40baf77e7f8ac7649, type: 3}
+  - {fileID: 2306422169287477990, guid: b35a2e88cd774bc4a9a071960cdb7b14, type: 3}
+  powerUpChance: 0.2
 --- !u!1001 &2015843640
 PrefabInstance:
   m_ObjectHideFlags: 0
