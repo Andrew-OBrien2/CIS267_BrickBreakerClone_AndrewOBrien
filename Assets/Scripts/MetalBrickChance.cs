@@ -59,7 +59,6 @@ public class MetalBrickChance : MonoBehaviour
             }
             else
             {
-                scoreCounter.AddScore(pointsPerBrick);
                 DestroyBrick();
             }
         }
